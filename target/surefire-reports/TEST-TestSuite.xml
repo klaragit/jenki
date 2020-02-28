@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.362" tests="2" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.424" tests="2" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="13"/>
     <property name="webdriver.chrome.driver" value="/Users/k/Downloads/chromedriver"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IL"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/openjdk-13.0.2.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/k/eclipse-workspace/mynewproject/target/surefire/surefirebooter6846318210883093538.jar /Users/k/eclipse-workspace/mynewproject/target/surefire 2020-02-28T09-11-36_672-jvmRun1 surefire15450202107058818505tmp surefire_06964531427667672072tmp"/>
+    <property name="sun.java.command" value="/Users/k/eclipse-workspace/mynewproject/target/surefire/surefirebooter12023083872049539433.jar /Users/k/eclipse-workspace/mynewproject/target/surefire 2020-02-28T10-21-50_593-jvmRun1 surefire14833400258050167252tmp surefire_015429137150147436782tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/k/eclipse-workspace/mynewproject/target/test-classes:/Users/k/eclipse-workspace/mynewproject/target/classes:/Users/k/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/k/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/k/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/k/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/k/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/k/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/k/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/k/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/k/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/k/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/k/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/k/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/k/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/k/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/k/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/k/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/k/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/k/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/k/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/k/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/k/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/k/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/k/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/k/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/k/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/k/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/k/eclipse-workspace/mynewproject/target/surefire/surefirebooter6846318210883093538.jar"/>
+    <property name="surefire.real.class.path" value="/Users/k/eclipse-workspace/mynewproject/target/surefire/surefirebooter12023083872049539433.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="13.0.2+8"/>
@@ -55,7 +55,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="57.0"/>
   </properties>
-  <testcase name="f" classname="NewTest" time="0.052">
+  <testcase name="f" classname="NewTest" time="0.079">
     <failure message="The driver executable does not exist: /Users/k/Downloads/chromedriver" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: The driver executable does not exist: /Users/k/Downloads/chromedriver
 	at NewTest.f(NewTest.java:9)
 ]]></failure>

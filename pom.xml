@@ -18,20 +18,25 @@
 </dependency>
 </dependencies>
 
-<build>
-	<pluginManagement>
-		<plugins>
-			<plugin>
-<groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-surefire-plugin</artifactId>
-    <version>3.0.0-M4</version>
+
+<profiles>
+<profile>
+<id>sanity</id>
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+    				<artifactId>maven-surefire-plugin</artifactId>
+    				<version>3.0.0-M4</version>
     
-    <configuration>
-    	<suiteXmlFiles>
-    		<suiteXmlFile>/Users/k/eclipse-workspace/mynewproject/src/test/java/suite.xml</suiteXmlFile>
-    	</suiteXmlFiles>
-    </configuration>
-    	    </plugin>
+    		<configuration>
+    			<suiteXmlFiles>
+    				<suiteXmlFile>/Users/k/eclipse-workspace/mynewproject/src/test/java/suite.xml</suiteXmlFile>
+    			</suiteXmlFiles>
+   			 </configuration>
+    	   		 </plugin>
+
     	
     	    
     	    
@@ -39,6 +44,8 @@
      </pluginManagement>
      
 </build>
+ </profile>
+ </profiles>
 				
 
   
