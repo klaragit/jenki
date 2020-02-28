@@ -9,6 +9,8 @@ public class NewTest {
 	  WebDriver driver = new ChromeDriver();
 	  driver.get("http://google.com");
 	  Thread.sleep(3000);
+	  driver.get("http://udemy.com");
+	  Thread.sleep(3000);
 	  driver.quit();
   }
   @Test()
